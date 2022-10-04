@@ -1,1 +1,1 @@
-require("blackdusk").load()
+require("blackdusk")
