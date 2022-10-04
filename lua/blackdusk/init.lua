@@ -85,7 +85,7 @@ end
 ---load dracula colorscheme
 local function load()
    if vim.version().minor < 7 then
-      vim.notify_once("dracula.nvim: you must use neovim 0.7 or higher")
+      vim.notify_once("blackdusk.nvim: you must use neovim 0.7 or higher")
       return
    end
 
@@ -100,7 +100,7 @@ local function load()
 
    o.background = "dark"
    o.termguicolors = true
-   g.colors_name = "dracula"
+   g.colors_name = "blackdusk"
 
    apply(local_configs)
 end
